@@ -1,0 +1,40 @@
+/* Base Styles and Typography */
+body {
+    background-color: #faf7f0;
+    color: black;
+    font-family: "Didot", serif;
+}
+
+#submission-button {
+    background-color: cadetblue;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    padding: 10px;
+}
+
+.choices {
+display: flex;
+}
+
+h1 {
+    padding:15px;
+}
+
+section.options {
+    align-items: left;
+    border: .5px dotted;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    .choices {
+        flex-direction: column;
+    }
+}
